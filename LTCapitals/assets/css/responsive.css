@@ -1,0 +1,155 @@
+@media (max-width: 1921px) {
+    .introduce .introduce__left {
+        margin-left: 41%;
+    }
+}
+
+@media (max-width: 1441px) {
+    .introduce .introduce__left {
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 1281px) {
+    .introduce .introduce__left {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .service .service__all .service__description {
+        width: 80%;
+    }
+    .row-up {
+        display: flex;
+        justify-content: center;
+    }
+    .introduce .introduce__left {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 80px 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .menu__all {
+        display: none;
+    }
+    .menu__bar {
+        display: block;
+    }
+    .my-owl-nav {
+        position: absolute;
+        top: 50%;
+        z-index: 100;
+        right: 5%;
+        left: 5%;
+        transform: translateY(-50%);
+    }
+    .banner__carousel .carousel__item .middle {
+        width: 65%;
+    }
+    .service .service__all .service__description {
+        width: 80%;
+    }
+    .service .service__all .service__item .item-description {
+        width: 80%;
+    }
+    .introduce .introduce__left {
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 80px 0;
+    }
+    .footer .right {
+        justify-content: flex-start;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .banner__carousel .carousel__item img {
+        height: 70vh;
+        object-fit: cover;
+    }
+    .my-owl-nav {
+        position: absolute;
+        top: 50%;
+        z-index: 100;
+        right: 0;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    .banner {
+        position: relative;
+        height: 70vh;
+    }
+    .carousel__item .middle {
+        transform: translate(-50%, -25%) !important;
+    }
+    .owl-theme .owl-dots {
+        bottom: 20px;
+    }
+    .banner__carousel .carousel__item .middle p {
+        font-size: 18px;
+    }
+    .service .service__all .service__heading {
+        font-size: 30px;
+    }
+    .about .about__item img {
+        width: 40px !important;
+    }
+    .service .service__all .service__description {
+        font-size: 16px;
+    }
+    .service .service__all .item-description {
+        font-size: 13px !important;
+    }
+    .introduce .introduce__left .left__title {
+        font-size: 30px;
+    }
+    .introduce .introduce__left .left__description {
+        font-size: 15px;
+    }
+    .introduce .introduce__left .left__list .list__item .content p {
+        font-size: 13px;
+    }
+    .about .about__item .content .content__title {
+        font-size: 16px;
+    }
+    .about .about__item .content .content__des {
+        font-size: 14px;
+    }
+    .footer .left h3 {
+        font-size: 16px;
+    }
+    .footer .left a {
+        font-size: 14px;
+    }
+    .footer .right {
+        padding-top: 20px;
+    }
+    .footer .right img {
+        width: 25px;
+    }
+    .footer .right a {
+        padding-left: 5px;
+    }
+    .my-owl-nav .my-prev-button {
+        font-size: 30px;
+    }
+    .my-owl-nav .my-next-button {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .banner__carousel .carousel__item .middle p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:325px) {
+    .banner__carousel .carousel__item .middle p {
+        font-size: 16px;
+    }
+}
